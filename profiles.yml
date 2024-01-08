@@ -1,0 +1,13 @@
+Netflix:
+  outputs:
+    dev:
+      account: zh36679.ap-southeast-1
+      database: DBT
+      password: '@Ar@3004'
+      role: ACCOUNTADMIN
+      schema: DBT_RAW
+      threads: 1
+      type: snowflake
+      user: ducvubuihong
+      warehouse: COMPUTE_WH
+  target: dev
